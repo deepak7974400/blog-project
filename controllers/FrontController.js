@@ -1,3 +1,6 @@
+const blogmodel = require("../models/blog")
+
+
 class FrontController{
 
     static home = async(req,res) => {
